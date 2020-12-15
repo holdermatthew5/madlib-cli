@@ -44,3 +44,6 @@ def merge(string, template):
     print(string)
     file = open(template, 'w')
     file = file.write(string)
+
+if __name__ == '__main__':
+    intro()
